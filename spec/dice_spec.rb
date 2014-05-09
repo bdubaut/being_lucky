@@ -2,8 +2,6 @@ require "spec_helper"
 require_relative "../models/dice"
 
 describe Dice do
-	before(:each) do
-	end
 	describe "#intialize" do
 	  it "creates a new Dice object" do
 		  d = Dice.new
