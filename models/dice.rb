@@ -7,7 +7,7 @@ class Dice
 	end
 
 	def throw_dice nb_dice
-		DICE_VALUES.sample nb_dice
+		Array.new(nb_dice) { rand(6) +1 }
 	end
 
 
