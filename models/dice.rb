@@ -6,7 +6,7 @@ class Dice
 
 	end
 
-	def throw nb_dice
+	def throw_dice nb_dice
 		DICE_VALUES.sample nb_dice
 	end
 
