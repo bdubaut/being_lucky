@@ -7,7 +7,12 @@ class BeingLucky
 		@dice = dice_res
 	end
 
-	def score
+	def dice
+		@dice
+	end
+
+
+	def hash_score
 		res_hash = {}
 		res_hash[:one] = @dice.count(1)
 		res_hash[:two] = @dice.count(2)
@@ -15,9 +20,11 @@ class BeingLucky
 		res_hash[:four] = @dice.count(4)
 		res_hash[:five] = @dice.count(5)
 		res_hash[:six] = @dice.count(6)
-
 		res_hash
-
 	end
+
+
+
+
 
 end
