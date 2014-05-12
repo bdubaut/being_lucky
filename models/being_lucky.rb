@@ -12,7 +12,7 @@ class BeingLucky
 		@dice
 	end
 
-
+  # returns a hash in order to prepare the score.
 	def hash_score
 		res_hash = {}
 		res_hash[:one] = @dice.count(1)
@@ -24,6 +24,7 @@ class BeingLucky
 		res_hash
 	end
 
+  # returns the score of the throw.
 	def score
 		h = self.hash_score
 		s = 0
