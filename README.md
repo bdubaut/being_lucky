@@ -47,9 +47,7 @@ a "5" can only count as part of a triplet (contributing to the 500
 points) or as a single 50 points, but not both in the same roll.
 
 The dice not contributing to the score are called the non-scoring
-dice. "3" and "4" are non-scoring dice in the first example. "3" is
-a non-scoring die in the second, and "2" is a non-score die in the
-final example.
+dice. 
 After a player rolls and the score is calculated, the scoring dice are
 removed and the player has the option of rolling again using only the
 non-scoring dice. If all of the thrown dice are scoring, then the
