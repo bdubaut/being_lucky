@@ -60,13 +60,13 @@ also accumulated score for that turn. If a player decides to stop
 rolling before rolling a zero-point roll, then the accumulated points
 for the turn is added to his total score.
 
-== Getting "In The Game"
+### Getting "In The Game"
 Before a player is allowed to accumulate points, they must get at
 least 300 points in a single turn. Once they have achieved 300 points
 in a single turn, the points earned in that turn and each following
 turn will be counted toward their total score.
 
-== End Game
+### End Game
 Once a player reaches 3000 (or more) points, the game enters the final
 round where each of the other players gets one more turn. The winner
 is the player with the highest score after the final round.
