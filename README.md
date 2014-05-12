@@ -10,13 +10,13 @@ clone the project, then install bundler
 <pre><code>gem install bundler</code></pre>
 
 then run
-<pre><code>$> bundle install</code></pre>
+<pre><code>bundle install</code></pre>
 
 How to play:
 ------------
 
 launch irb:
-<pre><code>$> bundle exec irb</code></pre>
+<pre><code>bundle exec irb</code></pre>
 Now require the model:
 <pre><code>require './models/being_lucky'</code></pre>
 
