@@ -25,6 +25,12 @@ describe BeingLucky do
 			expect(game.hash_score).to eq h
 		end
 	end
+	describe "#score" do
+		it "calculates the score of a turn" do
+			dice_res = [2,4,4,5,4]
+			expect(BeingLucky.new(dice_res).score).to eq 450
+		end
+	end
 
 end
 
