@@ -5,6 +5,7 @@ class BeingLucky
 	# dice_res is the array returned by a throw
 	def initialize(dice_res)
 		@dice = dice_res
+    p @dice
 	end
 
 	def dice
@@ -20,7 +21,6 @@ class BeingLucky
 		res_hash[:four] = @dice.count(4)
 		res_hash[:five] = @dice.count(5)
 		res_hash[:six] = @dice.count(6)
-		p res_hash
 		res_hash
 	end
 
@@ -41,7 +41,8 @@ class BeingLucky
 		s = s + 300 if h[:three] == 3
 		s = s + 400 if h[:four] == 3
 		s = s + 600 if h[:six] == 3
-		return s
+		# "you scored #{s} points."
+    return s
 	end
 
 
